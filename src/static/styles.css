@@ -93,6 +93,36 @@ section h3 {
   color: #555;
 }
 
+/* Participant list: hide bullets and layout items with a delete button */
+.participants {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 8px;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 4px 0;
+  color: #555;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: #5728c6;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+
+.delete-btn:hover {
+  background-color: #ffecec;
+}
+
 .participants-section em {
   color: #999;
   font-size: 0.95em;
